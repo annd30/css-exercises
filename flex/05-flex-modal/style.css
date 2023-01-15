@@ -3,6 +3,9 @@
 html, body {
   height: 100%;
 }
+* {
+  border: 1px solid red;
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -20,6 +23,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
 }
 
 .icon {
@@ -63,4 +67,10 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.close-button-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
